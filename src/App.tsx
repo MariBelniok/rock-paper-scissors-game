@@ -1,9 +1,13 @@
 import React from 'react';
-import './App.scss';
+import GameBoard from './app/components/game-board/game-board';
+import Header from './app/components/header/header';
 
 function App() {
   return (
-    <h1> Hello world </h1>
+    <>
+      <Header/>
+      <GameBoard/>
+    </>
   );
 }
 
